@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:background="@color/back3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logogpt"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Chat GPT"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    In this app learn about, what is the Chatgpt software and Chatgpt progress  and how to build and how work you can get an idea about Chatgpt. "
+            android:textColor="@color/white1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/m2"
+            android:id="@+id/homepic"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startbtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Lest Go"
+            android:textSize="19dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="2dp"
+            app:cornerRadius="50dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCahtPage"
+    android:orientation="horizontal"
+    android:background="@color/back3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/back3"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/backhomebtn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/arrow_back"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/logogpt"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat GPT"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/back4"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registration for Chat GPT"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To register for Chat GPT, you can use one of your existing email IDs and mobile number and then follow these easy steps to get registration done. Take note that price options now include a professional plan, should you need consistent, unfettered access.                       \n\nThe following are the steps:                  "
+                    android:layout_marginBottom="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to the login page in a browser.\n \nCreate an AI account, click on sign up and enter your email id; for example, if you have a Gmail id and then click on Google, it automatically registers to your Google account.\n\nThen next, press the continue button, and it asks for your mobile number for verification.\n\nThen you receive a code on your mobile number, and it may charge you to get a code.\n\nGo to sms activation. Register and log in\n\nIn the up-right corner, under the balance, select the top-up balance option to recharge.\n\nScrolling down at the end, you have some options. Click to recharge.\n\nAfter recharging, go back to the home page and find Al services in the search box.\n\nPress the shopping cart button. Your country code mobile number is mentioned.\n\nCopy that mobile number and enter it in the Chat GPT mobile number verification section Send code via sms.\n\nYou receive a code. That’s your verification code. Enter this code in the Open AI box to complete the process.\n\nChoose the main reason why you register it. Such as, I am using it to explore features.\n\nIn case of failure, change the mobile number of another country and then try again.  "
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="normal"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/readmorebtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:text="READ MORE"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:cornerRadius="10dp"/>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/back3">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/black"
+            android:text="Bluechip Technologies Asia"/>
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="@string/hyperlink"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/email"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:id="@+id/linkemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:text="@string/hyperlinkemail"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:text="© Copyright 2023 Bluechip Technologies Asia. All Rights Reserved"/>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/back3"
+            android:layout_marginBottom="20dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

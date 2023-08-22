@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@color/back3"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/back3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat GPT"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information Hub"
+                android:textColor="@color/white1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="30dp"
+                android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat GPT is an AI Chatbot developed \nby Open AI. The Chatgpt has a \nlanguage-based model that the \ndeveloper fine-tunes for human \ninteraction in a conversational manner. "
+                    android:textColor="@color/white1"
+                    android:layout_marginTop="0dp"
+                    android:textStyle="italic"
+                    android:layout_marginStart="30dp"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/hap"
+                    />
+
+            </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/aboutbtn"
+                    android:layout_width="175dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="ABOUT"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="2dp"
+                    app:cornerRadius="15dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/webbtn"
+                    android:layout_width="175dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="DOWNLOAD"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="2dp"
+                    app:cornerRadius="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/whatbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="What is Chat GPT?       "
+                android:textSize="20dp"
+                android:layout_marginTop="0dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/usedbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Chat GPT used for?      "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/probtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Chat GPT Pro?               "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/trainedonbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Chat GPT trained on? "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/codedbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Chat GPT coded in?     "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/gtpbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Chat GPT 4?                  "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/registerchatbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Registration Chat GPT  "
+                android:textSize="19dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chatbotbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="GPT-3 chatbot?            "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/finalbtn"
+                app:icon="@drawable/h1"
+                app:iconSize="40dp"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Final thoughts           "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                app:cornerRadius="20dp"/>
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="3dp"
+                    android:gravity="center"
+                    android:background="@color/back3">
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="@color/black"
+                    android:text="Bluechip Technologies Asia"/>
+
+                <TextView
+                    android:id="@+id/link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    android:text="@string/hyperlink"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/email"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="1dp"/>
+
+                    <TextView
+                        android:id="@+id/linkemail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+                        android:text="@string/hyperlinkemail"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black"
+                    android:text="© Copyright 2023 Bluechip Technologies Asia. All Rights Reserved"/>
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="3dp"
+                    android:gravity="center"
+                    android:background="@color/back3"
+                    android:layout_marginBottom="20dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

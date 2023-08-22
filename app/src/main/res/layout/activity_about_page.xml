@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutPage"
+    android:orientation="horizontal"
+    android:background="@color/back3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/back3"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/backhomebtn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/arrow_back"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/logogpt"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat GPT"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/back4"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABOUT CHAT GPT"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/chatgtplogo"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="0dp"/>
+
+
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ChatGPT is an artificial intelligence chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3 family of large language models and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.                       \n\nChatGPT was launched as a prototype on November 30, 2022, and quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy, however, has been identified as a significant drawback. Following the release of ChatGPT, OpenAI's valuation was estimated at US$29 billion in 2023.\n\nGPT-4, the newest OpenAI model, was released on March 14, 2023, and is available                                  "
+                    android:layout_marginBottom="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="0dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/samacat"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="0dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OpenAI CEO Sam Altman"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="0dp"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/readmorebtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:text="READ MORE"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:cornerRadius="10dp"/>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/back3">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/black"
+            android:text="Bluechip Technologies Asia"/>
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="@string/hyperlink"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/email"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:id="@+id/linkemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:text="@string/hyperlinkemail"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:text="© Copyright 2023 Bluechip Technologies Asia. All Rights Reserved"/>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/back3"
+            android:layout_marginBottom="20dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

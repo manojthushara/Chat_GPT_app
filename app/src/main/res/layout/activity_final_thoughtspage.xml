@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalThoughtspage"
+    android:orientation="horizontal"
+    android:background="@color/back3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/back3"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/backhomebtn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/arrow_back"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/logogpt"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat GPT"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/back4"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Final thoughts"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Chat GPT has been famous since its release and is set to revolutionize the tech world. All you have to do is go to OpenAI’s website and use it in your browser to test it for free.                                     \n\nThere is no specific app to use and you can use it on desktop and mobile websites. You just need to make an account and then use it for whatever you need. Be that for personal growth, expanded research, or something else. There are alternatives too, but Chat GPT is in the limelight for now!                "
+                    android:layout_marginBottom="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat GPT Playground – what you need to know"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/readmorebtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:text="READ MORE"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:cornerRadius="10dp"/>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/back3">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/black"
+            android:text="Bluechip Technologies Asia"/>
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="@string/hyperlink"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/email"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:id="@+id/linkemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:text="@string/hyperlinkemail"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:text="© Copyright 2023 Bluechip Technologies Asia. All Rights Reserved"/>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/back3"
+            android:layout_marginBottom="20dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

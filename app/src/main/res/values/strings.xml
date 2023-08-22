@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chat_GPT_app</string>
+
+    <string name="hyperlink">Please visit<a href ="https://bluechiptech.asia/"> Bluechip Technologies Asia</a></string>
+
+    <string name="hyperlinkemail"><a href ="hello@bluechiptech.asia"> hello@bluechiptech.asia</a></string>
+
+    <string name="hyperlinkemailtwo"><a href ="bizdev@bluechiptech.asia"> bizdev@bluechiptech.asia</a></string>
+</resources>
